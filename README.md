@@ -1,6 +1,6 @@
 # Bayesian SVAR analysis for macroeconomic and IRRBB forecasting with Python
 
-This repository contains a project of how to link Bayesian SVAR modeling to Basel III interest rate risk in the banking book (IRRBB) metrics. The goal is to translate yield-curve and macroeconomic scenarios into consistent forecasts of bank-level Net Interest Income (NII) and Economic Value of Equity (EVE) responses using:
+This repository contains a project of how to link Bayesian SVAR modeling to Basel III interest rate risk in the banking book (IRRBB) metrics. The goal is to translate yield-curve and macroeconomic scenarios into forecasts of bank-level Net Interest Income (NII) and Economic Value of Equity (EVE) responses using:
 
 - A **Bayesian VAR (BVAR)** estimated in PyMC  
 - **Sign-restricted SVAR** identification for monetary and fiscal shocks  
@@ -8,7 +8,7 @@ This repository contains a project of how to link Bayesian SVAR modeling to Base
 - **Conditional forecasts** under both structural and Basel scenarios  
 - A stylised **NII and EVE** engine to illustrate the impact on bank earnings and economic value
 
-The project is designed as a **research-style portfolio piece**: all the core logic lives in Python modules, while a single notebook (`MAIN_clean.ipynb`) walks through the full workflow and produces publication-ready figures.
+The project is designed as a **research-style portfolio piece**: all the core logic lives in Python modules, while a single notebook (`MAIN.ipynb`) walks through the full workflow and produces publication-ready figures.
 
 ---
 
