@@ -14,6 +14,7 @@ The project is designed as a **research-style portfolio piece**: all the core lo
 
 ## Repository structure
 
+```
 project_root/
 │
 ├─ data_raw/          # Original input data (macro variables, yields, etc.)
@@ -25,6 +26,7 @@ project_root/
 ├─ MAIN.ipynb
 ├─ README.md
 └─ requirements.txt
+```
 
 ---
 
